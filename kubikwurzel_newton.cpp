@@ -48,7 +48,7 @@ double newton_2(double n, int *count){
 
 void out(int n, int count, double (* func)(double n ,int *count)){
     double kubikwurzel = func(n, &count) ;  
-    cout << "Binaer-Suche: Kubikwurzel von " << n <<" = " ;
+    cout << "Kubikwurzel von " << n <<" = " ;
     cout << fixed << setprecision(16) << kubikwurzel << ", " ;
     cout << "Anzahl der Iteration = " << count << endl;  
 
